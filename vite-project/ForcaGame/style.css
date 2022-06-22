@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  --c0: rgb(245, 229, 229);
+  --c1: rgb(254, 212, 213);
+  --c2: rgb(220, 190, 217);
+  --c3: rgb(200, 174, 217);
+  --c4: rgb(177, 159, 204);
+  --c5: rgb(153, 140, 185);
+  --c6: rgb(130, 122, 166);
+  --c7: rgb(107, 104, 147);
+  --c8: rgb(85, 89, 134);
+  --c9: rgb(64, 67, 100);
+  --c10: rgb(46, 44, 63);
+  background-color: var(--c10);
+}
+body {
+  background-image: url(https://img.freepik.com/vetores-gratis/infeccao-por-virus-ou-bacterias-gripe-fundo_1035-18704.jpg?w=2000);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+h1 {
+  text-align: center;
+}
+span {
+  display: flex;
+  text-transform: uppercase;
+  font-weight: bold;
+  justify-content: center;
+  padding-bottom: 10px;
+  font-size: 25px;
+  border-bottom: 5px solid #8b3d41;
+  width: 45px;
+  margin: 5px;
+}
+button {
+  margin: 5px;
+  width: 35px;
+  color: white;
+  cursor: pointer;
+  padding: 10px 0;
+  background-color: rgb(90, 88, 88);
+  text-transform: uppercase;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 18px;
+}
+button:hover {
+  background-color: #4a72bd;
+}
+
+button.novo-bt {
+  width: auto;
+  padding: 10px;
+}
+.flex-2 {
+  display: flex;
+  justify-content: center;
+}
+.flex-2-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.flex-3 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+#novo {
+  text-align: center;
+}
+#venceu {
+  font-size: 25px;
+}
+.Voltar {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: var(--c10);
+  padding: 10px;
+  margin: auto;
+  border-radius: 5px;
+}
+.voltarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  border: 1px solid #222;
+  border-radius: 3px;
+  color: white;
+  background-color: var(--c9);
+  padding: 10px;
+}
